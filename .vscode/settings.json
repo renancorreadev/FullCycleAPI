@@ -3,6 +3,28 @@
         "catalogo",
         "tsbuildinfo"
     ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 24,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "eslint.alwaysShowStatus": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
     "workbench.colorCustomizations": {
         "activityBar.activeBorder": "#422c74",
         "activityBar.foreground": "#e7e7e7",
