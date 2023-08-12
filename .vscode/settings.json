@@ -1,0 +1,28 @@
+{
+    "cSpell.words": [
+        "catalogo",
+        "tsbuildinfo"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBorder": "#422c74",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#fa84cd",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#0777bd",
+        "statusBar.background": "#05588c",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#0777bd",
+        "titleBar.activeBackground": "#05588c",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#05588c99",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "activityBar.activeBackground": "#0777bd",
+        "activityBar.background": "#0777bd",
+        "commandCenter.border": "#e7e7e799",
+        "statusBarItem.remoteBackground": "#05588c",
+        "statusBarItem.remoteForeground": "#e7e7e7"
+    },
+    "peacock.remoteColor": "#215732",
+    "peacock.color": "#05588c"
+}
