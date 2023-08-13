@@ -48,4 +48,66 @@ describe("Category Unit Test", () => {
       is_active: true,
     });
   });
+
+  test("getter of name field", () => {
+    const category = new Category({ name: "Movie" });
+
+    expect(category.name).toBe("Movie");
+  });
+
+  test("getter of created_at field", () => {
+    const category = new Category({ name: "Movie" });
+
+    expect(category.created_at).toBeInstanceOf(Date);
+  });
+
+  test("getter and Setter of description field", () => {
+    let category = new Category({
+      name: "Movie",
+    });
+
+    expect(category.description).toBeNull();
+
+    category = new Category({
+      name: "Movie",
+      description: "Description of movie",
+    });
+
+    expect(category.description).toBe("Description of movie");
+
+    /** Test setters */
+
+    category = new Category({
+      name: "Movie",
+    });
+
+    category["description"] = "Description of movie";
+    expect(category.description).toBe("Description of movie");
+
+    category["description"] = undefined;
+    expect(category.description).toBeNull();
+  });
+
+  test("getter and Setter of is_active field", () => {
+    let category = new Category({
+      name: "Movie",
+    });
+    expect(category.is_active).toBeTruthy();
+    category = new Category({
+      name: "Movie",
+      is_active: false,
+    });
+
+    expect(category.is_active).toBeFalsy();
+
+    /** Test setters */
+    category = new Category({
+      name: "Movie",
+    });
+    category["is_active"] = false;
+    expect(category.is_active).toBeFalsy();
+
+    category["is_active"] = true;
+    expect(category.is_active).toBeTruthy();
+  });
 });
